@@ -1,21 +1,4 @@
-import {init, load, createArrayBuffer} from '../gl.js';
-
-// Auxillary Functions
-// function resize(gl, bool=false) {
-//     const ratio = bool ? (window.devicePixelRatio || 1) : 1;
-//     const width = Math.floor(gl.canvas.clientWidth * ratio);
-//     const height = Math.floor(gl.canvas.clientHeight * ratio);
-
-//     if (gl.canvas.width != width || gl.canvas.height != height) {
-//         gl.canvas.width = width;
-//         gl.canvas.height = height;
-//     }
-//     gl.viewport(0, 0, gl.canvas.width, gl.canvas.height);
-// }
-// function clear(gl) {
-//     resize(gl, true);
-//     gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
-// }
+import {init, load, createArrayBuffer} from './gl.js';
 
 // Run Program Function
 function run(gl, program) {
